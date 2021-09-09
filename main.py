@@ -4,11 +4,12 @@ from string import ascii_uppercase as blacklist
 
 alphabet_list = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 
-letters = "hanycpo"
+letters = input("Ring Letters (Format x x x x x x): ")
 
-letters_list = ["h", "a", "n", "y", "c", "p", "o"]
+letters_list = letters.split(" ")
+print(letters_list)
 
-main_letter = "o"
+main_letter = input("Core Letter: ")
 
 blacklist += "-."
 
